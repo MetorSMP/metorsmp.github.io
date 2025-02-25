@@ -78,6 +78,11 @@
     .yellow {
         animation: yellow 8s infinite ease;
     }
+
+    body {
+        overflow-x: hidden;
+        max-width: 100% !important;
+    }
   }
   
   @keyframes yellow {
